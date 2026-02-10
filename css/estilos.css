@@ -1,0 +1,28 @@
+.imagen-principal{
+    min-height: 100vh;
+                background-image:
+                    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45));
+                   
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+}
+
+.hero-section {
+    background: url('https://i.pinimg.com/originals/06/6b/c2/066bc22d4e449a2735a12ca8ae9ebe0d.jpg') center/cover no-repeat;
+    min-height: 100vh;
+}
+.hero-title {
+    font-family: 'Playfair Display', serif;
+}
+.hero-lead {
+    font-family: 'Manrope', sans-serif;
+    color: #f1f3f5;
+}
+.hero-btn {
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-pink {
+    background-color: #f8cce2;
+}
