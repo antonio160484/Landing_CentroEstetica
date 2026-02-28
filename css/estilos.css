@@ -1,28 +1,60 @@
-.imagen-principal{
-    min-height: 100vh;
-                background-image:
-                    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45));
-                   
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
+body {
+  background-color: #fde6ef;
+}
+
+.imagen-principal {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-section {
-    background: url('https://i.pinimg.com/originals/06/6b/c2/066bc22d4e449a2735a12ca8ae9ebe0d.jpg') center/cover no-repeat;
-    min-height: 100vh;
+  background: url("https://tse3.mm.bing.net/th/id/OIP.LRQtNhccehytdVI9W_uL1QHaFK?rs=1&pid=ImgDetMain&o=7&rm=3")
+    center/cover no-repeat;
+  min-height: 100vh;
 }
 .hero-title {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  color: #ca5559f6;
 }
 .hero-lead {
-    font-family: 'Manrope', sans-serif;
-    color: #f1f3f5;
+  font-family: "Manrope", sans-serif;
+  color: #0c0c0c;
 }
 .hero-btn {
-    font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .navbar-pink {
-    background-color: #f8cce2;
+  background-color: #f8cce2;
+}
+
+.servicios-section {
+  background-color: #f88ac1;
+}
+
+.card {
+  background-color: #fff5f9;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  font-family: "Playfair Display", serif;
+  color: #f49396;
+}
+.card-text {
+  font-family: "Manrope", sans-serif;
+  color: #0c0c0c;
+}
+.footer {
+  background-color: #f8cce2;
+  color: #0c0c0c;
+  font-family: "Manrope", sans-serif;
+}
+.footer a {
+  color: #0c0c0c;
+  text-decoration: none;
 }
